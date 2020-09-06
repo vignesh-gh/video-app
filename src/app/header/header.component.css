@@ -1,0 +1,8 @@
+.nav-link{
+    color:white;    
+    font-family:monospace;
+    font-style: italic;
+}
+.nav-link:hover{
+    color: lightsalmon;
+}

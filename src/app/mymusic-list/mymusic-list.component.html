@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <ul class="list-group" *ngFor="let song of songsList">
+                <li class="list-group-item">{{song.songname}}</li>
+                <li class="list-group-item"><a (click)="playMyListSong(song)"><i class="fa fa-play-circle"  style="size:4x" aria-hidden="true"></i></a>                  
+                </li>                    
+             </ul>
+        </div>

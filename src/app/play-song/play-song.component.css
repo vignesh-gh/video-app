@@ -1,0 +1,19 @@
+.video{
+   padding:8px;
+   background-color: rgb(253, 233, 143);
+   height: 400px;
+   width: 350px;
+}
+
+h4{
+    
+    border: 5px solid #ff0000;
+    border-radius: 14px;
+    padding:8px;
+    border-color: whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(235, 80, 52) ;
+    
+}

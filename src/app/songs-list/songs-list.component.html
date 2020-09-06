@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <ul class="list-group" *ngFor="let song of songsList">
+                <li class="list-group-item">{{song.songname}}</li>
+                <li class="list-group-item"><a (click)="playSong(song)"><i class="fa fa-play-circle"  style="size:4x" aria-hidden="true"></i></a>
+                    <div class="btn-group" appDropdown>
+                        <i id="more" class="fa fa-ellipsis-h"></i>
+                        <ul class="dropdown-menu">
+                            <li><a (click)="addMyVideoList(song)" style="cursor:pointer">To Favourite List</a></li>  
+                        </ul>   
+                    </div>
+                </li>                    
+             </ul>
+        </div>
+      
+
+    </div>
+</div>
+
+
+
